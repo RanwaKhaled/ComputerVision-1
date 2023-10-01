@@ -1,3 +1,7 @@
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt 
+plt.rcParams['figure.figsize'] = [10, 3]
 # Displaying image
 # Loading images
 image1=cv2.imread("C:/Users/ASUS/OneDrive/Pictures/f1 stickers/cl helmet.png",0)
